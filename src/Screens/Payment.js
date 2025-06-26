@@ -20,7 +20,7 @@ const RazorpayPayment = () => {
     }
 
     // STEP 1: Create order from backend
-    const { data } = await axios.post("http://localhost:5000/api/payment/create", {
+    const { data } = await axios.post("https://paymentbackend-giia.onrender.com/api/payment/create", {
       amount: 10 
     });
 
@@ -36,7 +36,7 @@ const RazorpayPayment = () => {
       order_id: order_id,
       handler: async function (response) {
         // STEP 3: Verify payment in backend
-        const verifyRes = await axios.post("http://localhost:5000/api/payment/verify", {
+        const verifyRes = await axios.post("https://paymentbackend-giia.onrender.com/api/payment/verify", {
           razorpay_order_id: response.razorpay_order_id,
           razorpay_payment_id: response.razorpay_payment_id,
           razorpay_signature: response.razorpay_signature,
