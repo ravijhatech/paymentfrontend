@@ -101,8 +101,8 @@ import DuplicatePayment from './Screens/DuplicatePayment'
 
 function App() {
   return (
-    // <RazorpayPayment/>
-    <DuplicatePayment/>
+     <RazorpayPayment/>
+    // <DuplicatePayment/>
   )
 }
 
