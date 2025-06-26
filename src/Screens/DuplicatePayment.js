@@ -42,7 +42,7 @@ const DuplicatePayment = () => {
 
     // STEP 2: Open Razorpay Checkout
     const options = {
-      key: "rzp_test_0yV3u7XWSosE4f", 
+      key: "rzp_live_V9aej9YSXimcGP", 
       amount: amount,
       currency: currency,
       name: "Ravi Kumar",
