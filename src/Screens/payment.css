@@ -1,0 +1,47 @@
+.payment-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.amount-input {
+  width: 100%;
+  padding: 14px;
+  font-size: 18px;
+  margin: 20px 0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.amount-input:focus {
+  border-color: #00bcd4;
+  box-shadow: 0 0 5px rgba(0, 188, 212, 0.4);
+}
+
+.pay-btn {
+  background-color: #00bcd4;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.pay-btn:hover {
+  background-color: #0097a7;
+}
+
+.payment-message {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #4caf50;
+}

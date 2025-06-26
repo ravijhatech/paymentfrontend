@@ -1,0 +1,39 @@
+
+export const Data = [
+    {
+        name:"Ravi",
+        email:"ravi@gmail.com"
+    },
+     {
+        name:"Ravi",
+        email:"ravi@gmail.com"
+    },
+     {
+        name:"Ravi",
+        email:"ravi@gmail.com"
+    },
+     {
+        name:"Anish",
+        email:"anish@gmail.com"
+    },
+     {
+        name:"Shivani",
+        email:"shivani@gmail.com"
+    },
+     {
+        name:"Sapna",
+        email:"sapna@gmail.com"
+    },
+     {
+        name:"Rohit",
+        email:"rohit@gmail.com"
+    },
+       {
+        name:"Renu",
+        email:"renu@gmail.com"
+    },
+       {
+        name:"Bindu",
+        email:"bindu@gmail.com"
+    },
+]
